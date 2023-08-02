@@ -1,0 +1,37 @@
+.box-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  width: calc(33.33% - 20px); /* Three cards per row on larger screens */
+  height: 180px; /* Fixed height for the card */
+  display: inline-block;
+  box-sizing: border-box;
+  max-height: 100px;
+  max-width: 450px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description, .address {
+  font-size: 14px;
+}
+
+h1, h2 {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+h1{
+  color:rgb(202, 143, 54);
+}
+@media screen and (max-width: 768px) {
+  .box-card {
+    width:90% ;
+    max-height:100px;
+  }
+  h1{
+    font-size: 20px;
+  }
+}

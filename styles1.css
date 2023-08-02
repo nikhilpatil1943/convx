@@ -1,0 +1,24 @@
+.mainbody{
+    margin-left: 10px;
+}
+.maincard{
+    margin: 10px;
+    height: 100%;
+    border-radius: 5px;
+    background-color:rgb(221, 142, 89) ;
+}
+.subcard{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 20px;
+    align-items: end;
+    color: red;
+
+}
+.subheads{
+    margin: 10px;
+}
+p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
